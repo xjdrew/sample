@@ -12,6 +12,8 @@ Ctrl + V
 
 加分项：
 打印出中间你按下的那些键。 
+
+类似这个：http://www.matrix67.com/blog/archives/4092
 """
 
 # Brute force method
