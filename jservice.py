@@ -7,6 +7,7 @@ from gevent.server import StreamServer
 
 def add(req):
     gevent.sleep(0.1)
+    print("-------------", req["a"], req["b"])
     return req["a"] + req["b"]
 
 handles = {
